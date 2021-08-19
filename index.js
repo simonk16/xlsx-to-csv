@@ -17,7 +17,7 @@ glob("**/*.xlsx", function (er, result) {
       let outputFileName = files[i].split(".")[0]
       
       const workBook = XLSX.readFile(files[i]);
-      XLSX.writeFile(workBook, outputFileName, { bookType: "csv" });
+      XLSX.writeFile(workBook, outputFileName + ".csv", { bookType: "csv" });
     
     }
   })
