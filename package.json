@@ -1,0 +1,16 @@
+{
+  "name": "xlsx-to-csv",
+  "version": "1.0.0",
+  "description": "convert xls and xlsx files to csv so they may be seeded into a sql db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simonk16",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "node-xlsx": "^0.17.1",
+    "xlsx": "^0.17.1"
+  }
+}
